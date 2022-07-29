@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"br.com.fiap.java.Capitulo03_Classes","c":"Teste","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"br.com.fiap.java.Capitulo03_Classes","c":"Teste","l":"Teste()","u":"%3Cinit%3E()"}];updateSearchResults();
