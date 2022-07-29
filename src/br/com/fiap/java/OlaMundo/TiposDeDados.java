@@ -1,4 +1,4 @@
-package br.com.fiap.java.Capitulo02_OlaMundo;
+package br.com.fiap.java.OlaMundo;
 
 public class TiposDeDados {
 	

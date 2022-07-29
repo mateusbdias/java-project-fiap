@@ -1,4 +1,4 @@
-package br.com.fiap.java.Capitulo03_Classes;
+package br.com.fiap.java.Banco;
 
 public class Teste {
 	
