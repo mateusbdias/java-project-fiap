@@ -34,6 +34,9 @@ public class Conta {
 	 * @param valor Valor a ser depositado
 	 */
 	public void depositar(double valor) {
+		if (valor < 0) {
+			throw new ValorInvalidoException();
+		}
 		saldo += valor;
 	}
 	
@@ -42,6 +45,13 @@ public class Conta {
 	 * @param valor Valor a ser retirado
 	 */
 	public void retirar(double valor) {
+		saldo -= valor;
+	}
+	
+	public void sacar(double valor) throws SaldoInsuficienteException {
+		if (valor > saldo) {
+			throw new SaldoInsuficienteException();
+		}
 		saldo -= valor;
 	}
 	
