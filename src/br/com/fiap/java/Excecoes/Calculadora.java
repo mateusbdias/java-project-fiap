@@ -1,4 +1,4 @@
-package br.com.fiap.java.Exceptions_DesignPatterns;
+package br.com.fiap.java.Excecoes;
 
 public class Calculadora {
 	
